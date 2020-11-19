@@ -1,9 +1,14 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# deployment
+.firebase
+.firebaserc
+firebase.json
 
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+yarn.lock
 
 # testing
 /coverage

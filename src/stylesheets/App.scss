@@ -1,0 +1,39 @@
+
+body {
+    background-color: #000;
+}
+
+.app {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .banner {
+        margin: 1rem;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        color: #fff;
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+
+        .social-link, h1 {
+            margin: 1rem;
+            text-align: center;
+        }
+
+        h1.resume {
+            font-size: 0.85rem;
+            border-radius: 1rem;
+        }
+    }
+}

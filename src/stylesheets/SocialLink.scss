@@ -1,0 +1,12 @@
+a.social-link {
+  text-decoration: none !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+
+  svg {
+      margin-right: 0.5rem;
+  }
+}
